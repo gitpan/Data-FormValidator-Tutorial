@@ -1,6 +1,8 @@
 package Data::FormValidator::Tutorial;
 
-our $VERSION = sprintf '%s', q{$Revision: 1.3 $} =~ /\S+\s+(\S+)/ ;
+our $VERSION = sprintf '%s', q{$Revision: 1.4 $} =~ /\S+\s+(\S+)/ ;
+
+
 
 1;
 __END__
@@ -149,6 +151,39 @@ as required, optional, or dependent was made.
 These are returned in the C<$unknown> array position.
 
 =back
+
+=head1 GOTCHAS (provided by William McKee)
+
+
+=over 4
+
+=item *
+
+If you use CGI.pm to handle accessing the form data, there's no
+easy 
+way to send C<$q> to the FormValidator since it wants a hash. There is a 
+little known function C<Vars()> that will do this conversion for you.
+
+   my %fdat = $q->Vars;
+
+=item *
+
+The validated (and untainted??) data comes back in as a hashref. I
+may 
+be dense but it took me a bit to realize that the first value is a 
+HASHREF, not an arrayref like all the others. 
+
+=back
+
+=head1 CALL FOR PARTICIPATION (also from William)
+
+Although the module docs are good and my tutorial provides some 
+theoretical background about creating profiles, there is not a clearcut 
+example of actually using this module to check and untaint form data
+which is then used in a "real" program. That would be a helpful addition to
+the 
+tutorial.
+
 
 =head1 AUTHOR
 

@@ -1,0 +1,6 @@
+Revision history for Perl extension Data::FormValidator::Tutorial.
+
+0.01  Wed Nov  7 19:08:00 2001
+	- original version; created by h2xs 1.1.1.4 with options
+		-A -X -n Data::FormValidator::Tutorial
+

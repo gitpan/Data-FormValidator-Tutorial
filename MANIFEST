@@ -1,5 +1,7 @@
+Build.PL
 Changes
-Makefile.PL
 MANIFEST
+META.yml
+Makefile.PL
+lib/Data/FormValidator/Tutorial.pm
 test.pl
-Tutorial.pm

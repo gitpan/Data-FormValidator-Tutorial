@@ -1,6 +1,7 @@
-Revision history for Perl extension Data::FormValidator::Tutorial.
-
-0.01  Wed Nov  7 19:08:00 2001
-	- original version; created by h2xs 1.1.1.4 with options
-		-A -X -n Data::FormValidator::Tutorial
+1.50  Wed Dec  8 09:31:05 EST 2004  jason@purdy.info
+    We adopted TBONE's dfv-tutorial and did a complete re-write.
+    For fear of stagnation, we decided to release this with some
+    missing parts, namely moving into the more complex areas of
+    dfv and also the msgs part.  We promise to do that real soon
+    now!
 

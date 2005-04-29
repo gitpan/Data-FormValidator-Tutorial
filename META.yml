@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Data-FormValidator-Tutorial
-version: 1.50
+version: 1.60
 author:
   - William McKee <william@knowmad.com>
   - Jason Purdy <jason@purdy.info>
@@ -11,5 +11,5 @@ requires:
 provides:
   Data::FormValidator::Tutorial:
     file: lib/Data/FormValidator/Tutorial.pm
-    version: 1.50
-generated_by: Module::Build version 0.2605
+    version: 1.60
+generated_by: Jason

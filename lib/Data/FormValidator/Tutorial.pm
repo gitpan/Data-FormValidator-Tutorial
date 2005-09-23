@@ -1,6 +1,7 @@
 package Data::FormValidator::Tutorial;
+use strict;
 
-our $VERSION = '1.50';
+our $VERSION = '1.61';
 
 
 
@@ -270,7 +271,9 @@ This is just an early release of this tutorial - we're using the release early &
 
 L<Data::FormValidator> and the dfv mailing list: L<http://lists.sourceforge.net/lists/listinfo/cascade-dataform>
 
-Also, Jason Purdy will be presenting at ApacheCon 2005 (L<http://www.apachecon.com>) on dfv.  We'll release again afterwards to point to his papers (which are also being incorporated into this doc) and slides.
+Also, Jason Purdy presented dfv at ApacheCon 2005 (L<http://www.apachecon.com>).  You can download the slides here:
+
+L<http://www.purdy.info/useperl/th06_slides.pdf>
 
 =head1 AUTHORS
 
